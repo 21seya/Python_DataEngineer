@@ -1,3 +1,4 @@
+import math
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
@@ -17,13 +18,25 @@ print(res)
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio = float(input("Digite o raio :"))
+area = math.pi * raio ** 2
+print(f"{area:.2f}")
 
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+data = input("Insira uma data no formato dd/mm/aaaa :")
+
+data_usuario = "01/02/2002"
+lista_dia_mes_ano = data_usuario.split("/")
+print(f"O elemento 1 e 0 :{lista_dia_mes_ano[0]}")
+print(f"O elemento 1 e 0 :{lista_dia_mes_ano[1]}")
+print(f"O elemento 1 e 0 :{lista_dia_mes_ano[2]}")
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # #### Booleanos (`bool`)
