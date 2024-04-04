@@ -38,16 +38,37 @@ valores_produtos()
 # Os dados incluem medições de temperatura. Você precisa classificar cada leitura 
 # como 'Baixa', 'Normal' ou 'Alta'. Considerando que:
 
-texto = " ola mundo estou aprendendo python "
-palavras = texto.split(" ")
-print(palavras)
+temperatura = 20 
 
-contagem_palavras = {}
+if temperatura < 18:
+    print("Baixa")
 
-for palavra in palavras:
-    if palavra in contagem_palavras:
-        contagem_palavras[palavra]=+1
+elif temperatura >= 18 and temperatura <=26:
+    print("Normal")
+elif  temperatura > 26:
+    print("Alta")
+else:
+    print("Temperatura invalida")
+
+temperatura = int(input("Digite a temperatura :"))
+
+if temperatura < 18:
+    print("Baixa")
+elif 18 <= temperatura <=26:
+    print("Normal")
+else:
+    print("Alta")
+
+
+def clima_temperatura():
+    temperatura = int(input("Digite a temperatura:"))
+
+    if temperatura < 18:
+        print("Baixa")
+    elif 18 <= temperatura <= 26:
+        print("Normal")
     else:
-        contagem_palavras[palavra] = 0   
+        print("Alta")
 
+clima_temperatura()               
 
