@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "modulo07"
+version = "0.1.0"
+description = "\"basico PYTHON\""
+authors = ["21seya <wallacenevesk9@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
