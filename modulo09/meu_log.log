@@ -1,0 +1,6 @@
+2024-04-23 20:19:59.980 | INFO     | __main__:soma:6 - 3
+2024-04-23 20:19:59.980 | INFO     | __main__:soma:7 - 5
+2024-04-23 20:19:59.980 | INFO     | __main__:soma:8 - 8
+2024-05-05 17:44:45.265 | INFO     | __main__:soma:8 - você digitou os números corretos parabéns !,{soma}
+2024-05-05 17:46:00.550 | INFO     | __main__:soma:8 - você digitou os números corretos parabéns 8
+2024-05-05 17:47:33.669 | CRITICAL | __main__:soma:10 - você tem que digitar os valores corretos
